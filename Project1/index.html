@@ -1,27 +1,50 @@
+<!-- HTML Project
+Designing for Web Standards 1 C201409 Term
+Instructor Chris Vincze
+Created by Phirom Yim -->
+
+
+
 <! DOCTYPE html>
 <html>
 <head>
 <!-- title of browser tab -->
 <title>Buffalo Bike Collective</title>
 </head>
-<body>
-<!-- links and content goes here -->
+<!-- Links go here -->
+<!-- CSS Link -->
+<link rel="stylesheet" href="css/style.css"> 
 
-<link rel="stylesheet" href="css/style.css">
+<!-- Font Links -->
+<!-- link for Cabin Sketch font from google font -->
+<link href='http://fonts.googleapis.com/css?family=Cabin+Sketch' rel='stylesheet' type='text/css'>				
+<!-- link for Marvel font from google font -->
+<link href='http://fonts.googleapis.com/css?family=Marvel' rel='stylesheet' type='text/css'>
 
-<!-- all h and p elements go here -->
-<h1>BUFFALO BIKE COLLECTIVE</h1>
 
-<img src="images/BikeVector.png" alt="Bike Illustration">
+<!-- content goes here -->
+<body>		<!-- all h and p elements goes inside here -->
+
+<h1>BUFFALO BIKE COLLECTIVE</h1>	<!-- Title of Site-->
+
+<img src="images/BikeVector.png" alt="Bike Illustration"> <!-- image vector -->
+
+<!-- Content paragraph that explains the purpose of the site -->
 
 <p>Your adventure begins here. Whether you are a novice, an enthusiast, or a professional</p>
 
-<img src="images/arrow.png" alt="Arrow Divider">
+<img src="images/arrow.png" alt="Arrow Divider">	<!-- image vector divider -->
 
-<h2>Gear Up For an <em>Adventure</em>. Get Lost <strong>Here</strong></h2>
+<!-- Start of Div id for Body Content -->
+<div id="content">
 
+<h2>Gear Up For an <em>Adventure</em>, Get Lost <strong>Here</strong></h2>
+
+<div id="glossary">
 <h3>Types of Bikes</h3>
-<p><dl>
+<!--START of Definition List -->
+<dl>
+<!-- Contains Defintion Term and Definitions from wikipedia link -->
         <dt><strong><a href="http://en.wikipedia.org/wiki/Single-speed_bicycle">Single Speed</a></strong></dt>
 
         <dd><blockquote cite="http://en.wikipedia.org/wiki/Single-speed_bicycle"> a single-speed bicycle is a type of bicycle with a single gear ratio. These bicycles are without derailleur gears, hub gearing or other methods for varying the gear ratio of the bicycle.</blockquote></dd>
@@ -30,36 +53,40 @@
 
         <dd><blockquote cite="http://en.wikipedia.org/wiki/Fixed-gear_bicycle"> a fixed-gear bicycle (or fixed-wheel bicycle, commonly known as a fixie) is a that has a drivetrain with no freewheel. The freewheel was developed early in the history of bicycle design but the fixed-gear bicycle remained the standard track racing design. More recently the "fixie" has become a popular alternative among mainly urban cyclists, offering the advantages of simplicity compared with the standard multi-geared bicycle.</blockquote></dd>
 
-
         <dt><strong><a href="http://en.wikipedia.org/wiki/Road_bicycle">Road</a></strong></dt>
         
         <dd><blockquote cite="http://en.wikipedia.org/wiki/Road_bicycle">a term used to describe bicycles built for traveling at speed on paved roads. Some sources use the term to mean racing bicycle. Other sources specifically exclude racing bicycles from the definition, using the term to mean a bicycle of a similar style but built more for endurance and less the fast bursts of speed desired in a racing bicycle; as such, they usually have more gear combinations and fewer hi-tech racing features.</blockquote></dd>
 
-
         <dt><strong><a href="http://en.wikipedia.org/wiki/Track_bicycle">Track</a></strong></dt>
         
         <dd><blockquote cite="http://en.wikipedia.org/wiki/Track_bicycle">a track bicycle or track bike is a bicycle optimized for racing at a velodrome or outdoor track. Unlike road bicycles, the track bike is a fixed-gear bicycle; thus, it has only a single gear and has neither a freewheel nor brakes. Tires are narrow and inflated to high pressure to reduce rolling resistance. Tubular tires are most often used in track racing[1] and training, though advances in clincher tire design have seen them being used somewhat more often. </blockquote></dd>
-</dl></p>
-    
+</dl>
+</div>			<!-- End of div for Glossary -->
+<!-- END of Definition List -->
+
 <h3>Things you need for a day ride</h3>
 
-<p><ol>
+<!-- START of ordered list -->
+<ol>
     <li>Water and lots of it. It's always a good idea to keep hydrated.</li>
     <li>Snacks or energy food, whatever that will help refuel you.</li>
     <li>Flat repair, in case you hit one too many pot holes.</li>
     <li>Emergency items i.e. Identification, Money and etc. You never know what can happen on a long bike ride.</li>
-    </ol></p>
+    </ol>		<!-- end ordered list break -->
+    
 <h3>Bike Pics of the Month</h3>
 
+<!-- Image Gallery links to larger image-->
 <a href="images/clamp.jpg" alt="Seat Clamp" title="Thompson Seat Clamp">Photo One</a></br>
 <a href="images/saddle.jpg" alt="Bike Seat" title="Brooks Saddle">Photo Two</a></br>
 <a href="images/hplusson.jpg" alt="Bike Wheels" title="H Plus Son Rims & Rubino Tires">Photo Three</a></br>
 <a href="images/grips.jpg" alt="Bike Handlebar" title="Oury Grips on Cinelli Handlebars">Photo Four</a></br>
 
-<img src="images/arrow.png" alt="Arrow Divider 2">
+<img src="images/arrow.png" alt="Arrow Divider 2">	<!-- image vector divider -->
 
 <h3>Bike Shops</h3>
 
+<!-- Links to other websites listed in an unorderd list -->
 <ul>
 	<li>Campus Wheelworks </br>
 	<a href="http://www.campuswheelworks.com/">www.campuswheelworks.com</a>,</br>
@@ -75,8 +102,8 @@
     <a href="http://gobikebuffalo.org/">www.gobikebuffalo.org</a></br>
     <strong>Address</strong> 640 Ellicott St, Buffalo, NY 14203</br>
     <strong>Phone</strong> (716) 218-7161</li>
-</ul></p>
-
+</ul>				<!-- end of list break -->
+</div>				<!-- end content of div id="Body">
 </body>
 </html>
 

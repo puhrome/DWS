@@ -1,36 +1,56 @@
-/* css for Project 1 */
+/* CSS Project 
+Designing for Web Standards 1 C201409 Term
+Instructor Chris Vincze
+Created by Phirom Yim */
 
 
-/* color name */
+
+
 	
-header { 
-	background-image: url ('../BikeVector.png');
+
+/* Heading */
 	
+h1 {
+	font-family: 'Cabin Sketch', cursive;
+	background-color: #882555;
+	color: #ffffff;
+	font-size: 5em;
 	}
 	
+/* Content */
+
 body {
 	background-color: rgba(141, 114, 92, 0.1);
 	margin: 20px 20px 20px 20px;
 	padding: 25px 50px 25px 50px;
 	}	
 	
-h1 {
-	font-family: Marvel, sans-serif;
+/* DIV elements */	
+p {
+	font-family: 'Cabin Sketch', cursive;
 	background-color: #882555;
 	color: #ffffff;
-	font-size: 30px;
+	font-size: 2em;
 	}
+#content {
+	font-family: Marvel, sans-serif;
+	color: #3A1506;
+	font size: .75em;
+	}
+		
+#glossary { 
+	height: auto; 
+	width: auto; 
+	background-color: hsla(309, 100%, 92%, 0.3);
+	}
+		
+
 	
 #subheader {
 	font-family: Marvel, sans-serif;
 	color: #000000;
 	font-size: 1em;
 	}
-#intro {
-	font-family: Marvel, sans-serif;
-	color: #3A1506;
-	font-style: italic;
-	font-size: 2em
 	
 h2 {
 	font-family: Marvel, sans-serif;
@@ -39,17 +59,6 @@ h2 {
 	font-size: 2em
 	}
 
-#content {
-	font-family: Marvel, sans-serif;
-	color: #3A1506;
-	font size: .75em;
-	}
-
-#tagline {
-	font-family: 'Cabin Sketch', cursive;
-	color: #3A1506;
-	font-size: 5em;
-	}
 a:link {
 	color: magenta;
 	}
