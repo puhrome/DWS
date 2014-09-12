@@ -14,7 +14,9 @@ h1 {
 	font-family: 'Cabin Sketch', cursive;
 	background-color: #882555;
 	color: #ffffff;
-	font-size: 5em;
+	font-size: 4em;
+	margin: 5px 5px 5px 5px;
+	padding: 10px 10px 10px 10px;
 	}
 	
 /* Content */
@@ -25,15 +27,49 @@ body {
 	padding: 25px 50px 25px 50px;
 	}	
 	
-/* DIV elements */	
 p {
-	font-family: 'Cabin Sketch', cursive;
-	background-color: #882555;
-	color: #ffffff;
+	font-family: Muli, sans-serif;
+	color: #3A1506;
+	background-color: hsla(309, 100%, 92%, 0.3);
 	font-size: 2em;
+	margin: 20px 300px 20px 30px;
+	padding: 30px 50px 30px 50px;
 	}
-#content {
+	
+i {
+	color: #B16FA4;
+	text-transform: uppercase;
+	}
+	
+h2 {
 	font-family: Marvel, sans-serif;
+	color: #3A1506;
+	font-style: bold;
+	font-size: 3em;
+	}
+	
+h3 {
+	font-family: Muli, sans-serif;
+	color: #3A1506;
+	font-style: bold;
+	font-size: 3em;
+	}
+		
+a:link { 
+	color: deeppink; 
+	text-decoration: none;}
+a:visited { 
+	color: black;}
+a:hover { 
+	color: deeppink; 
+	text-decoration: underline;}
+a:active { 
+	color: darkcyan;}
+
+/* DIV elements */	
+	
+#content {
+	font-family: Muli, sans-serif;
 	color: #3A1506;
 	font size: .75em;
 	}
@@ -41,35 +77,13 @@ p {
 #glossary { 
 	height: auto; 
 	width: auto; 
-	background-color: hsla(309, 100%, 92%, 0.3);
-	}
-		
-
-	
-#subheader {
-	font-family: Marvel, sans-serif;
-	color: #000000;
-	font-size: 1em;
+	border-top: 2px solid #882555;
+	border-bottom: 2px solid #882555;
 	}
 	
-h2 {
-	font-family: Marvel, sans-serif;
-	color: #3A1506;
-	font-style: italic;
-	font-size: 2em
-	}
 
-a:link {
-	color: magenta;
-	}
-a:visted {
-	color: yellow;
-	}
-a:hover {
-	color: turquoise;
-	}
-a:active {
-	color: #3A1506;
+	
+
 
 
 
