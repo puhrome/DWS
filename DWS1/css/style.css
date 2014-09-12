@@ -1,0 +1,70 @@
+/* css for Project 1 */
+
+
+/* color name */
+	
+header { 
+	background-image: url ('../BikeVector.png');
+	
+	}
+	
+body {
+	background-color: rgba(141, 114, 92, 0.1);
+	margin: 20px 20px 20px 20px;
+	padding: 25px 50px 25px 50px;
+	}	
+	
+h1 {
+	font-family: Marvel, sans-serif;
+	background-color: #882555;
+	color: #ffffff;
+	font-size: 30px;
+	}
+	
+#subheader {
+	font-family: Marvel, sans-serif;
+	color: #000000;
+	font-size: 1em;
+	}
+#intro {
+	font-family: Marvel, sans-serif;
+	color: #3A1506;
+	font-style: italic;
+	font-size: 2em
+	
+h2 {
+	font-family: Marvel, sans-serif;
+	color: #3A1506;
+	font-style: italic;
+	font-size: 2em
+	}
+
+#content {
+	font-family: Marvel, sans-serif;
+	color: #3A1506;
+	font size: .75em;
+	}
+
+#tagline {
+	font-family: 'Cabin Sketch', cursive;
+	color: #3A1506;
+	font-size: 5em;
+	}
+a:link {
+	color: magenta;
+	}
+a:visted {
+	color: yellow;
+	}
+a:hover {
+	color: turquoise;
+	}
+a:active {
+	color: #3A1506;
+
+
+
+
+
+
+
