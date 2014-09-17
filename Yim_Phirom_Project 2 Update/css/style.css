@@ -1,0 +1,181 @@
+/* CSS Project 
+Designing for Web Standards 1 C201409 Term
+Instructor Chris Vincze
+Created by Phirom Yim */
+
+
+
+
+/* H E A D I N G */
+
+#page {
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+    font-style: inherit;
+    background-color: #fff;
+    text-align: justify;
+    list-style-type: lower-roman;
+}
+/* B O D Y */
+body {
+    background-color: #FDFBFE;
+    margin: auto;
+    padding: 50px 50px 50px 50px;
+    width: auto;
+}
+
+h1 {
+    font-family: "marvel", sans-serif;
+    color: #3A1506;
+    font-size: 5em;
+    text-align: justify;
+    line-height: 2em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-style: normal;
+    text-shadow: 3px 2px 2px #755975;
+    text-transform: uppercase;
+    padding: 30px 30px 30px 30px;
+
+}
+p {
+    font-family: 'pathway gothic one', sans-serif;
+    color: #3A1506;
+    font-size: 4em;
+    border: 2px solid #000000;
+    text-align: justify;
+    line-height: 1.5em;
+}
+h2 {
+    font-size: 6em;
+}
+
+h2, h3 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+a {
+    font-weight: normal;
+}
+a:link {
+    color: hsla(283, 49%, 26%, 0.75);
+    text-decoration: none;
+}
+a:active {
+    color: #761158;
+}
+a:visited {
+    color: #000000;
+}
+a:hover {
+    color: rgba(187, 126, 211, 0.4);
+    text-decoration: underline;
+}
+
+i {
+    color: #C32694;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Marvel', sans-serif;
+    color: #755180;
+    font-size: 4em;
+    text-shadow: 2px 1px 1px #CECACF;
+    text-align: inherit;
+    padding: 30px 30px 30px 30px;
+
+}
+
+h3 {
+    font-family:'Pathway Gothic One', sans-serif;
+    color: #3A1506;
+    text-align: justify;
+    line-height: 2px;
+    font-size: 2em;
+    padding: 30px 30px 30px 30px;
+
+}
+
+/* Navigation */
+
+#navigation {
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+}
+#logo {
+    margin: auto;
+    width: 920px;
+}
+/* S T Y L I N G */
+#content {
+    color: #3A1506;
+    font-size: 2em;
+    list-style-type: lower-roman;
+}
+
+/* Definition list */
+#glossary {
+    font-family: Muli, sans-serif;
+    display: inline-block;
+    height: auto;
+    border: 2px solid #ffffff;
+    border-radius: 5px 10px 5px 10px;
+    text-align: left;
+    margin: 0px auto;
+    box-shadow:  0 0 10px #777777;
+
+}
+/* Image gallery with thumbnails linking to a different page */
+#photos {
+    font-family: 'Marvel', sans-serif;
+    font-size: 1em;
+    background-color: rgba(198, 195, 185, 0.1);
+    display: block;
+    margin: 20px 20px 20px 20px;
+    padding:20px 20px 20px 20px;
+}
+
+/* Links to other websites */
+#links {
+    font-family: arial, verdana, sans-serif;
+    font-size: 1em;
+    color: #000000;
+    line-height: 1.5em;
+    padding: 0px;
+    display: block;
+}
+/* Styling for L I S T S */
+ol {
+    font-family: Marvel, sans-serif;
+    font-size: 2em;
+}
+
+ul {
+    width: auto;
+    display: inline-flex;
+}
+
+li {
+    margin-right: 60px;
+    display: inline;
+}
+li.navigation {
+    display: block;
+}
+ol.checklist {
+    list-style-type: lower-roman;
+}
+/* photo styling for opacity and hover opacity */
+img {
+    opacity: .40;
+    vertical-align: text-bottom;
+}
+
+img:hover {
+    opacity: 1.0;
+}
+
+	
+	
