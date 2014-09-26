@@ -1,0 +1,607 @@
+/* CSS Project
+Designing for Web Standards 1 C201409 Term
+Instructor Chris Vincze
+Created by Phirom Yim */
+
+
+/* Whole Content*/
+#wrapper {
+    margin: 10px auto 10px auto;
+    width: 90%;
+}
+
+/* B O D Y */
+html {
+    background: url("../images/foxtail.png") repeat-x ;
+    background-position: 50% 0;
+    opacity: .9;
+}
+body {
+    margin: 10px auto 10px auto;
+    padding: 5px 10px 10px 10px;
+    width: 90%;
+}
+header {
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: 2.5% 2% 3.25% 2%;
+    background: url("../images/purpleandgoldbike_06.png") 80% 40% no-repeat;
+    background-color: rgba(213, 214, 205, 0.7);
+
+}
+h1 {
+    font-family: "Open Sans Condensed", sans-serif;
+    color: #ffffff;
+    font-size: 4em;
+    letter-spacing: 3px;
+    line-height: 1.25em;
+    font-style: normal;
+    text-shadow: 2px 2px 5px #000;
+    margin: 0 auto 0 auto;
+    padding: 2% 1%;
+    height: 20%;
+    width: 70%;
+}
+h1 em {
+    font-family: "sacramento", cursive;
+    font-size: 2.5em;
+    color: #AE9D48;
+    text-transform: none;
+    text-shadow: 1px 1px 5px #000;
+    opacity: .7;
+    width: 70%;
+    padding: 0 2%;
+}
+header h2 {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 1em;
+    letter-spacing: 1px;
+    color: #444444;
+    margin: 0 auto 0 auto;
+    text-transform: none;
+    padding: 0 2%;
+}
+p {
+    font-family: 'pathway gothic one', sans-serif;
+    color: #3A1506;
+    line-height: 1.5em;
+    margin: auto;
+    width: 90%;
+}
+
+#intro p {
+    font-size: 3em;
+    line-height: 1.5em;
+    border-bottom: 2px solid #000000;
+    padding: 50px 50px 10px 50px;
+    width: 90%;
+    margin: 0 auto 0 auto;
+    clear: both;
+
+}
+#main h2 {
+    font-family: 'Marvel', sans-serif;
+    color: #755180;
+    font-size: 8em;
+    text-shadow: 2px 1px 1px #CECACF;
+    text-align: inherit;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 10px 10px 10px;
+    margin: 10px auto 10px auto;
+    background-image: url("../images/BikeVector.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-attachment: fixed;
+    clear: both;
+}
+
+i {
+    font-size: 1.5em;
+    color: #827017;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family:'Pathway Gothic One', sans-serif;
+    color: #3A1506;
+    text-align: justify;
+    font-size: 2em;
+    margin: 10px auto 10px auto;
+    padding: 1%;
+}
+/* Footer */
+
+footer {
+    font-family: "Muli", sans-serif;
+    font-size: 1em;
+    letter-spacing: 1px;
+    color: #827017;
+    clear: both;
+}
+
+/* Links Styling */
+
+a:link {
+    color: hsla(283, 49%, 26%, 0.75);
+    text-decoration: none;
+}
+a:active {
+    color: #761158;
+}
+a:visited {
+    color: #000000;
+}
+a:hover {
+    color: rgba(187, 126, 211, 0.4);
+    text-decoration: underline;
+}
+
+/* Heading */
+#div {
+    line-height: 2em;
+    width:100%;
+    overflow: auto;
+}
+div#photos.thumbnails {
+    display: inline;
+    overflow: auto;
+    text-align: right;
+}
+#heading {
+    text-transform: uppercase;
+}
+
+#heading p {
+    font-size: 3em;
+    text-transform: none;
+    letter-spacing: 1px;
+}
+/* Navigation */
+
+#nav_list {
+    font-family: 'Calibri', sans-serif;
+    width: 20%;
+    float: left;
+    clear: right;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+#nav_list ul {
+    font-size: 1em;
+    list-style-type: none;
+    padding: 2% 1%;
+    text-transform: none;
+    clear: right;
+}
+#nav_list li {
+    padding: 0 2%;
+    clear: right;
+
+}
+#nav_list a {
+    color: #341041;
+    letter-spacing: 2px;
+}
+#nav_list a:hover {
+    color: #761158;
+}
+/* DIV S T Y L I N G */
+
+#main {
+    display:inline-block;
+}
+/*Definition List*/
+
+#glossary h3 {
+    font-family: "Marvel", sans-serif;
+    font-size: 1em;
+    margin-left: 1em;
+}
+#glossary dl {
+    font-size: 1em;
+
+}
+#glossary dt {
+    display: inline;
+}
+#glossary a {
+    font-family: "Marvel", sans-serif;
+    font-size: 1em;
+    margin-left: 1em;
+}
+
+#content {
+    padding: 0 1em;
+    color: #3A1506;
+    font-size: 2em;
+    list-style-type: lower-roman;
+    width: 90%;
+    clear: both;
+    overflow: auto;
+    margin: 1px 3px;
+}
+
+/* Image gallery with thumbnails linking to a different page */
+#photos {
+    font-family: 'Marvel', sans-serif;
+    font-size: 1em;
+    display: block;
+    clear: both;
+}
+
+/* Links to other websites */
+
+#links h3 {
+    background-color: #E5DDB0;
+    margin: 10px auto 10px auto;
+    padding: 30px 10px 30px 10px;
+    text-shadow: 2px 2px 2px #777;
+    color: #ffffff;
+
+}
+#links {
+    font-family: "Open Sans", sans-serif;
+    font-size: .75em;
+    color: #341041;
+    line-height: 1em;
+    padding: 0 1%;
+    float: left;
+    width: 100%;
+    margin: 1%;
+}
+#main a {
+    color: #827017;
+    font-style: italic;
+}
+#main a:hover {
+    color: #761158;
+}
+
+#main p {
+    text-align: left;
+    clear: both;
+}
+#stats-img {
+    margin: 0 auto 0 auto;
+    padding: 1% 18%;
+}
+#stats-img img {
+    display: inline-flex;
+}
+#greeting {
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 2em;
+    display: inline-flex;
+    color: #3A1506;
+    margin: 0 auto;
+    padding: 5% 2% 2% 2%;
+}
+#list {
+    font-family: "Muli", sans-serif;
+    font-size: .5em;
+}
+#list p {
+    font-family: "Marvel", sans-serif;
+    font-size: 1em;
+    color: #341041;
+    background-color: #D9D8D2;
+}
+#input {
+    font-family: "arial", sans-serif;
+    font-size: .5em;
+    color: #777;
+    display: block;
+}
+/*Class Styling*/
+{
+    display: inline;
+    overflow: auto;
+}
+p.links {
+    float: left;
+    width: 30%;
+    margin-left: 10%;
+    background-color: #777777;
+    letter-spacing: 2px;
+}
+.clear {
+    clear: both;
+    overflow: auto;
+}
+.clear {
+    clear: both;
+    overflow: auto;
+}
+.photos a {
+    background-color: #777;
+    color: #fff;
+}
+.column1, .column2, .column3 {
+    width: 30%;
+    float: left;
+    margin: 1%;
+    padding: 2px;
+
+}
+.clear {
+    clear: left;
+    overflow: auto;
+}
+/* Styling for Lists*/
+
+ol {
+    font-family: "Marvel", sans-serif;
+    font-size: 2em;
+    list-style-type: decimal;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 1.25em;
+    margin: 10px auto 10px auto;
+    text-transform: uppercase;
+}
+li a {
+    margin: 10px auto 10px auto;
+    line-height: 2em;
+
+}
+dt a {
+    text-transform: uppercase;
+}
+
+/* Aside Columns */
+
+tbody {
+    font-family: "Calibri", sans-serif;
+    background-color: #DEC8E6;
+    font-size: 1.5em;
+    color: #777777;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2% 1%;
+
+}
+
+table.content-table {
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+.content-table th {
+    font-family: "Marvel", sans-serif;
+    text-transform: uppercase;
+    padding: 20px 10px 20px 10px;
+    font-size: 1em;
+    background-color: #E5DDB0;
+    color: #341041;
+
+}
+.content-table td{
+    padding: 10px 10px 10px 10px;
+    text-align: right;
+}
+.content-table tr:hover {
+    color:#341041;
+}
+
+tbody tr.even {
+    background-color: #F4ECF7;
+}
+td.city {
+    text-align:left;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.checklist {
+    font-family: "Muli", sans-serif;
+    font-size: 2em;
+}
+
+.visits {
+    padding: 10px;
+}
+/* photo styling for opacity and hover opacity */
+
+.thumbnails {
+    font-family: "Amatic SC", cursive;
+    color: #777;
+    vertical-align: text-bottom;
+}
+.thumbnails img {
+    height: 80px;
+    border: 4px solid #555;
+    padding: 1px;
+    margin: 0 10px 10px 0;
+    opacity: .40;
+}
+
+.thumbnails img:hover {
+    border: 4px solid #827017;
+    cursor: pointer;
+    opacity: 1.0;
+}
+
+.preview img {
+    border: 4px solid #444;
+    padding: 1px;
+    height: 500px;
+}
+section.glossary {
+    font-family: "Muli", sans-serif;
+    font-size: .8em;
+    padding: 2%;
+    clear: both;
+    overflow: auto;
+    margin: 10px auto 10px auto;
+    border-bottom: 2px dotted #3A1506;
+}
+div.submit {
+    padding: 1% 3%;
+    margin: 1%;
+    text-align: right;
+}
+span.title {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 1em;
+}
+
+aside#checklist {
+    font-family: "Muli", sans-serif;
+    width: 50%;
+    float: left;
+    padding: 0 2% 0 1%;
+    overflow: auto;
+    border-right: 1px double #3A1506;
+}
+#checklist h3 {
+    font-family: "Marvel", sans-serif;
+    font-size: 1em;
+}
+#checklist ol {
+    list-style-type: lower-roman;
+    font-size: 1em;
+    margin-left: 1em;
+
+}
+section.input-forms {
+    float: left;
+    width: 100%;
+    margin: 2%  1%;
+    border: 2px dotted;
+}
+section.input-forms h4 {
+    font-family: "Marvel", sans-serif;
+    font-size: .75em;
+    color: #761158;
+    margin: 0 auto;
+    padding: 1% 3%;
+    text-transform: uppercase;
+}
+
+#main h3 {
+    font-family: "open sans condensed", sans-serif;
+    font-size: 2em;
+    margin: 0 auto 0 auto;
+    padding: 0 1%;
+}
+#main h3 {
+    font-family: 'Marvel', sans-serif;
+    font-size: 3em;
+    letter-spacing: 2px;
+    color: #341041;
+    margin: 10px auto 10px auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+aside#statistics p {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 2em;
+    float: left;
+    clear: both;
+    width: 60%;
+}
+section#stats-border {
+    border-radius: 3px;
+    border: 1px solid #3A1506;
+    margin: 0 auto;
+    padding: 1%;
+}
+section#gallery {
+    width: 40%;
+    float: left;
+    padding-left: 2%;
+    display: inline-block;
+}
+section#gallery h3 {
+    font-family: "Marvel", sans-serif;
+    font-size: 1em;
+    padding-bottom: 2%;
+    text-align: right;
+}
+aside#form-email {
+    width: 40%;
+    margin: 0 auto;
+    padding: 5% 1% 0 1%;
+    float: right;
+}
+
+/* Styling for Forms and List*/
+legend  {
+    font-style: normal;
+    font-family: "Calibri", sans-serif;
+    font-size: .5em;
+    text-transform: uppercase;
+
+}
+p label.Type {
+    font-style: normal;
+    font-family: "Calibri", sans-serif;
+    font-size: .5em;
+    text-transform: uppercase;
+    text-align: center;
+}
+form textarea {
+    margin: 0 auto;
+    padding: 5%;
+
+}
+textarea {
+    font-family: "calibri", sans-serif;
+    font-size: .75em;
+    height: 20%;
+    width: 80%;
+}
+fieldset {
+    border: 1px solid #3A1506;
+    padding: 2%;
+    text-align: left;
+}
+label  {
+    font-size: .5em;
+}
+p label.title {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: .5em;
+    text-transform: uppercase;
+}
+form#checkbox-list {
+    font-family: "Calibri", sans-serif;
+    font-size: 1em;
+    color: #777;
+    padding: 10px 20px;
+    display: inline-flex;
+}
+form#checkbox-list label {
+    padding-right: 5px;
+}
+input#email {
+    font-family: "Muli", sans-serif;
+    font-size: .5em;
+}
+input[type="text"] {
+    width: 200px;
+    border: 1px solid #777;
+    padding: 1%;
+    outline: none;
+}
+input[type="text"]:focus, input[type="text"]:hover {
+    background-color: #DEC8E6;
+    border: 1px solid #444444;
+
+}
+input [type="submit"] {
+    border: 1px solid #827017;
+    background-color: #827017;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 1% 3%;
+    margin: 1%;
+    text-align: right;
+}
+select#bike-type {
+    padding: 1% 3%;
+    margin: 1%;
+    text-align: right;
+}
